@@ -1,18 +1,21 @@
 {
-  "name": "excel-export",
-  "version": "0.5.1",
+  "name": "tinker-excel-export",
+  "version": "1.0.0",
   "description": "Simple data set export to Excel xlsx file",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/main"
   },
-  "repository": "https://github.com/functionscope/Node-Excel-Export",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/functionscope/Node-Excel-Export.git"
+  },
   "keywords": [
     "Excel",
     "xlsx"
   ],
   "author": "Ber-Lin Lai <berlin.lai@gmail.com>",
-  "license": "BSD",
+  "license": "MIT",
   "dependencies": {
     "collections": "^3.0.0",
     "node-zip": "1.x"
@@ -20,5 +23,13 @@
   "devDependencies": {
     "mocha": "",
     "should": ""
+  },
+  "bugs": {
+    "url": "https://github.com/functionscope/Node-Excel-Export/issues"
+  },
+  "homepage": "https://github.com/functionscope/Node-Excel-Export#readme",
+  "directories": {
+    "example": "example",
+    "test": "test"
   }
 }
